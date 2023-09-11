@@ -1,0 +1,77 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000;
+}
+
+section {
+  background-color: #16181c;
+  padding: 30px;
+  border-radius: 1rem;
+  width: 400px;
+  display: flex;
+  flex-direction: column;
+  gap: .7rem;
+}
+
+h2 {
+    color: white;
+}
+
+/* Estilos para FollowOption */
+.followOption {
+  display: flex;
+  align-items: center;
+  color: white;
+  height: 70px;
+}
+
+.followOption-right {
+    display: flex;
+    height: 100%;
+    width: 80%;
+    align-items: center;
+    gap: 1rem;
+}
+
+.followOption-right > div:first-child {
+  height: 100%;
+  width: 25%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.followOption-right > div:first-child > img {
+  height: 80%;
+  width: 80%;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.nick {
+    color: gray;
+}
+.followOption-left {
+    width: 20%;
+}
+
+.followOption-left > button {
+    background-color: white;
+    color: #16181c;
+    border-radius: .9rem;
+    padding: 10px 14px;
+    font-size: .9rem;
+    font-weight: 600;
+    border: 0;
+}
+

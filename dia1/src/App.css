@@ -1,0 +1,62 @@
+/* App.css */
+.App {
+  display: flex;
+  padding: 200px;
+}
+
+img {
+  border-radius: 50%;
+}
+
+.column1 {
+  flex: 0.1; 
+  margin: 5px;
+}
+
+.column2 {
+  flex: 0.5; 
+  margin: 5px;
+}
+
+.personal-info {
+  border: 1px solid #ccc;
+  padding: 20px;
+  margin-bottom: 20px;
+  background-color: papayawhip;
+  font-size: 17px;
+  
+}
+
+.experience {
+  border: 1px solid #ccc;
+  padding: 30px;
+  text-align: right;
+  background-color: aliceblue;
+  font-size: 17.5px;
+  font-family: 'Times New Roman', Times, serif;
+
+}
+
+p {
+  text-align: justify;
+}
+
+li {
+  text-align: left;
+}
+
+h2 {
+  text-align: center;
+  background-color: beige;
+}
+
+h3 {
+  text-align: left;
+  background-color: beige;
+  font-size: 20px;
+}
+
+h4 {
+  background-color:azure;
+  font-size: 20px;
+}

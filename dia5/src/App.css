@@ -1,0 +1,13 @@
+section {
+  background-color: tomato;
+  transition: all .3s;
+  overflow: hidden;
+}
+
+.active {
+  height: 300px;
+}
+
+.no-active {
+  height: 0;
+}
